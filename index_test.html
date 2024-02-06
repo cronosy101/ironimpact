@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        /* Custom style for creating space between nav links */
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="mx-2" src="./media/images/logo.png" alt="logo" style="width: 70px;">
+            <a class="navbar-brand " href="#">
+                <h1>bootcamp</h1>
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- Use the custom class for navbar-nav -->
+                <div class="custom-navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        trainers
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Arny</a></li>
+                        <li><a class="dropdown-item" href="#">Ronny</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    <a class="nav-link" href="#">Info</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+            <div class="mx-2"><i class="fa-solid fa-arrow-right-to-bracket loginbutt fa-2x"></i></div>
+        </div>
+    </nav>
+    <!-- top image -->
+    <div class="position-relative">
+        <div class="top-image w-100 position-relative overflow-hidden mt-0 pt-0" style="height: 40rem;">
+            <img src="./media/images/samuel-girven-CeJuNGDjHAM-unsplash.jpg"
+                class="img-fluid ms-auto position-absolute top-50 start-0 translate-middle-y" alt="">
+        </div>
+        <h2 class="top-image-text w-100  text-white text-center">High-intensity workouts that
+            transforms your mind, body and soul.
+        </h2>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

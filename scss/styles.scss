@@ -1,0 +1,66 @@
+body{
+    color: rgb(0, 0, 0) ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.myUl{
+    color: white !important;
+    width: 5rem;  
+    min-width:inherit;
+}
+
+.trainerLink{
+    color:black  !important;
+
+}
+button{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.loginbutt{
+    color: black;
+}
+.custom-navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navbar-toggler {
+    font-size: 80%; /* Adjust the font size as needed */
+  }
+.navbar-toggler-icon {
+width: 1.5em; /* Adjust the width as needed */
+height: 1.5em; /* Adjust the height as needed */
+}
+.top-image-text{
+    position: absolute;
+    top: 10%;
+}
+.top-images-buttons{
+    position:absolute;
+    top:30%;
+}
+.btn-outline-primary:hover a.link-primary {
+    color: #000 !important; /* Change to the desired dark color */
+}
+.card{
+    max-width: 20rem;
+    min-width: 15rem;
+}
+
+
+
+@media (max-width:965px){
+    .top-image{
+        height: 20rem !important;
+    }
+}
+@media (max-width:393px){
+    .top-image-text{
+        top:25%;
+    }
+}
